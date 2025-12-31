@@ -7,9 +7,9 @@ const HeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Subtle gradient background */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_hsl(var(--amd-orange)/0.04)_0%,_transparent_60%)]" />
-      
+
       {/* Grid pattern overlay */}
-      <div 
+      <div
         className="absolute inset-0 opacity-[0.02]"
         style={{
           backgroundImage: `linear-gradient(hsl(var(--foreground)) 1px, transparent 1px),
@@ -53,8 +53,8 @@ const HeroSection = () => {
             transition={{ duration: 0.7, delay: 0.6 }}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed mb-12"
           >
-            Most brands fail in one of two ways: they rely blindly on data and lose judgment, 
-            or they trust instinct and burn money. AMD operates at the intersection—where 
+            Most brands fail in one of two ways: they rely blindly on data and lose judgment,
+            or they trust instinct and burn money. AMD operates at the intersection—where
             AI pattern recognition meets operator instinct.
           </motion.p>
 
@@ -66,8 +66,14 @@ const HeroSection = () => {
             className="flex flex-col sm:flex-row gap-4"
           >
             <Button variant="primary" size="xl" className="group">
-              Book a Strategy Call
-              <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+              <a
+                href="https://calendar.app.google/gxwPNSxqj1GE6ddq5"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Book a Strategy Call
+                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+              </a>
             </Button>
           </motion.div>
         </div>
