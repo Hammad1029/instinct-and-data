@@ -43,15 +43,15 @@ const Header = () => {
           </a>
         </div>
 
-        <Button variant="minimal" size="lg">
-          <a
-            href="https://calendar.app.google/gxwPNSxqj1GE6ddq5"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+        <a
+          href="https://calendar.app.google/gxwPNSxqj1GE6ddq5"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button variant="minimal" size="lg">
             Book a Call
-          </a>
-        </Button>
+          </Button>
+        </a>
       </nav>
     </motion.header>
   );
