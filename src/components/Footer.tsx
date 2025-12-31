@@ -9,7 +9,7 @@ const Footer = () => {
             <img 
               src={amdLogo} 
               alt="Avenue Michigan Digital" 
-              className="h-6 w-auto"
+              className="h-20 w-auto"
             />
             <p className="text-sm text-muted-foreground">
               AI with Instinct.
