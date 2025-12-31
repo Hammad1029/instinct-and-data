@@ -22,12 +22,12 @@ const Header = () => {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled ? 'bg-background/90 backdrop-blur-md border-b border-border' : 'bg-transparent'
         }`}
     >
-      <nav className="container mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
+      <nav className="container mx-auto px-6 lg:px-12 h-23 flex items-center justify-between">
         <a href="/" className="flex items-center">
           <img
             src={amdLogo}
             alt="Avenue Michigan Digital"
-            className="h-8 w-auto"
+            className="h-20 object-contain"
           />
         </a>
 
