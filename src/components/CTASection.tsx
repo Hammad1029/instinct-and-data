@@ -35,11 +35,19 @@ const CTASection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.2 }}
+            className="flex flex-col items-center gap-3"
           >
-            <Button variant="primary" size="xl" className="group">
-              Book a Strategy Call
-              <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-            </Button>
+            <a
+              href="https://calendar.app.google/gxwPNSxqj1GE6ddq5"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary" size="xl" className="group">
+                Book a Strategy Call
+                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+              </Button>
+            </a>
+            <span className="text-sm text-muted-foreground">30 minutes with AMD</span>
           </motion.div>
         </div>
       </div>
